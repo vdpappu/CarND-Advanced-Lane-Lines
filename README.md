@@ -129,3 +129,11 @@ The above stated pipeline is applied on the video provided. Below video shows th
 
 https://youtu.be/CwINfrvq-tU
 
+
+<h3>Challenges faced and Issues with current pipeline</h3>
+
+Overall, the project was challenging in a way that the individual building blocks coming together to form a pipeline. 
+  * A lot of threshold values have to be experimented and tuned to complete the submission
+  * Lane detection is not very consistent on the challenging video provided - this can be handled by playing with X-gradient and S channel threshold
+  * Curvature calculation is not consistent across the video - This has to be handled either by checking if the radius of curtavure is consistent or the lane lines drawn are similar to previous set of lanes
+  * The lane detection pipeline may not work in varying climate conditions - Cloudy, night etc. A better tuning is needed to handle such scenarios
