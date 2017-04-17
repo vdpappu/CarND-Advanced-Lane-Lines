@@ -127,5 +127,5 @@ In this step, we extract the lane pixels from right and left lanes and to fit th
 The above stated pipeline is applied on the video provided. Below video shows the result of applying the pipeline on the video
 <b> [Ref Code Block - Cell 25] </b>
 
-https://youtu.be/09EsPR9ZzmY
+https://youtu.be/CwINfrvq-tU
 
